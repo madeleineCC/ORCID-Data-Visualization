@@ -7,17 +7,10 @@
 
 # you will need to install these packages first, using the following
 # if you've already installed them, skip this step
-#install.packages('dplyr')
-#install.packages('tibble')
-#install.packages('tidyr')
-#install.packages('purrr')
-#install.packages('readr')
-#install.packages('stringr')
+
+#install.packages('tidyverse')
 #install.packages('jsonlite')
-#install.packages('lubridate')
-#install.packages('ggplot2')
 #install.packages('httr')
-#install.packages('forcats')
 #install.packages('rorcid')
 #install.packages('usethis')
 #install.packages('anytime')
@@ -31,17 +24,10 @@
 #devtools::install_github("ropensci/geonames")
 
 # load the packages
-library(dplyr)
-library(tibble)
-library(tidyr)
-library(purrr)
-library(readr)
-library(stringr)
+
+library(tidyverse)
 library(jsonlite)
-library(lubridate)
-library(ggplot2)
 library(httr)
-library(forcats)
 library(usethis)
 library(anytime)
 library(janitor)

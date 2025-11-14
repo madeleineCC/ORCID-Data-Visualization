@@ -1,29 +1,23 @@
 # Install required packages (uncomment to install)
+
+# install.packages('tidyverse')
 # install.packages("shiny")  
-# install.packages("readr") 
-# install.packages("dplyr")  
-# install.packages("ggplot2")
 # install.packages("bslib")  
 # install.packages("bsicons")  
 # install.packages("plotly")   
 # install.packages("leaflet") 
 # install.packages("htmltools") 
 # install.packages("DT")      
-# install.packages("stringr") 
-# install.packages("tidyr")    
-
+  
+library(tidyverse)
 library(shiny)
-library(readr)
-library(dplyr)
-library(ggplot2)
 library(bslib)
 library(bsicons)
 library(plotly)
 library(leaflet)
 library(htmltools)
 library(DT)
-library(stringr)
-library(tidyr)
+
 
 # Custom variables for file paths, organization, and dates
 setwd("ENTER YOUR WORKING DIRECTORY HERE")  
