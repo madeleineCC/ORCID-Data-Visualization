@@ -8,6 +8,8 @@
 # the following packages are required for this script, but they are already installed and loaded in Rorcid_Crossref_Authors.R
 # you do not need to uncomment these lines unless you are running this script independently or for the first time.
 
+#If you encounter an error while installing packages go to: Tools --> Install packages --> Input package name --> Click install
+
 # install.packages(purr)
 # install.packages("data.table")
 # devtools::install_github("ropensci/geonames")

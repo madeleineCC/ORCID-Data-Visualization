@@ -1,5 +1,8 @@
 # Install required packages (uncomment to install)
 
+#If you encounter an error while installing packages go to: Tools --> Install packages --> Input package name --> Click install
+
+
 # install.packages('tidyverse')
 # install.packages("shiny")  
 # install.packages("bslib")  

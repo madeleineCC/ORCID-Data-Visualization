@@ -7,6 +7,9 @@
 
 # you will need to install these packages first, using the following
 
+#If you encounter an error while installing packages go to: Tools --> Install packages --> Input package name --> Click install
+
+
 #install.packages('tidyverse')
 #install.packages('jsonlite')
 #install.packages('httr')
