@@ -1,8 +1,9 @@
 # Install required packages (uncomment to install)
 
 #If you encounter an error while installing packages go to: Tools --> Install packages --> Input package name --> Click install
+#To use the styler package go to: Addins --> Click: Set style
 
-
+# install.packages('styler')
 # install.packages('tidyverse')
 # install.packages("shiny")  
 # install.packages("bslib")  
@@ -11,7 +12,8 @@
 # install.packages("leaflet") 
 # install.packages("htmltools") 
 # install.packages("DT")      
-  
+
+library(styler)
 library(tidyverse)
 library(shiny)
 library(bslib)

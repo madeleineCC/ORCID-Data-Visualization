@@ -9,11 +9,14 @@
 # you do not need to uncomment these lines unless you are running this script independently or for the first time.
 
 #If you encounter an error while installing packages go to: Tools --> Install packages --> Input package name --> Click install
+#To use the styler package go to: Addins --> Click: Set style
 
-# install.packages(purr)
+# install.packages('styler')
+# install.packages('purr')
 # install.packages("data.table")
 # devtools::install_github("ropensci/geonames")
 
+# library(styler)
 # library(data.table)
 # library(geonames)
 # library(purrr)

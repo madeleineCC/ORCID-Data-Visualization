@@ -8,8 +8,9 @@
 # you will need to install these packages first, using the following
 
 #If you encounter an error while installing packages go to: Tools --> Install packages --> Input package name --> Click install
+#To use the styler package go to: Addins --> Click: Set style
 
-
+#install.packages('styler')
 #install.packages('tidyverse')
 #install.packages('jsonlite')
 #install.packages('httr')
@@ -28,6 +29,7 @@
 
 # load the packages
 
+library(styler)
 library(tidyverse)
 library(jsonlite)
 library(httr)
